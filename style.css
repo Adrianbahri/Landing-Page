@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9faf8;
+    color: #1f2937;
+}
+
+.hero, nav {
+    margin: 0;
+    padding: 1px 200px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav .nav-links li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-text h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.main-text p {
+    color: #e5e7eb;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    size: 4px;
+}
+
+.pict {
+    width: 700px;
+    height: 250px;
+    background-color: #878787;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f9faf8;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+.information {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    padding: 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.information h1 {
+    size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.catalog {
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.catalog .pic{
+    width: 180px;
+    height: 180px;
+    border: 4px solid #3882f6;
+    border-radius: 15%;
+}
+
+.catalog .cat-1, .cat-2, .cat-3, .cat-4{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-wrap: break-word; /* Memastikan kata panjang akan terputus dan melanjutkan ke baris berikutnya */
+    overflow-wrap: break-word; /* Properti alternatif untuk memastikan teks terputus dengan benar */
+    white-space: normal; /* Memungkinkan newline dan pemotongan teks sesuai ukuran container */
+    line-height: 1.5; /* Mengatur jarak antar baris */
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.quote .quote-container {
+    padding: 100px 300px;
+}
+
+.quo {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.name{
+    text-align: right;
+    font-weight: 900;
+}
+
+.CTA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 100px 200px;
+}
+
+.cta-container {
+    width: 100%;
+    height: 150px;
+    background-color: #3882f6;
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: #f9faf8;
+    border-radius: 15px;
+}
+
+.CTA button{
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    width: 100%;
+    height: 100px;
+}
